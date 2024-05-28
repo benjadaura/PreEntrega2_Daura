@@ -1,0 +1,196 @@
+:root
+{
+    --main-bg-color: rgb(238, 238, 238);
+    --sec-bg-color: rgb(249, 244, 244);
+    --main-border: 2px solid rgb(129, 129, 129);
+    --sec-border: 1px solid rgb(88, 88, 88);
+    --main-title-color: rgb(44, 44, 44);
+}
+
+html
+{
+    scroll-behavior: smooth; 
+}
+
+
+.Header
+{
+    height: 25%;
+    background-color: var(--sec-bg-color);
+    border-bottom: var(--main-border);
+    position: sticky;
+}
+
+.logo
+{
+    text-align: left;
+    display: inline-flex;
+}
+
+.mt
+{
+    margin-top: 50px;
+}
+
+.Main
+{ 
+    height: 60%;
+    background-color: var(--main-bg-color);
+    border-bottom: var(--main-border);
+    border-top: var(--main-border);
+    font-size: 25px;
+    color: antiquewhite;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.627),rgba(0, 0, 0, 0.8)) ,  url(IMG/Acoustic_Room.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background
+}
+
+.titulos_h3
+{
+    text-align: center;
+    font-weight: bolder;
+    color: crimson;
+}
+
+.Section
+{
+    height: 30%;
+    border-bottom: var(--main-border);
+    background-color: var(--sec-bg-color);
+}
+
+.izq
+{
+    height: 100%;
+    border-right: var(--sec-border);
+}
+
+.cuotas
+{
+    margin-top: 60px;
+}
+
+.der
+{
+    height: 100%;
+    border-left: var(--sec-border);
+    text-align: center;
+    font-weight: bolder;
+    color: var(--main-title-color);
+}
+
+.marcas img
+{
+    margin: 10px 35px 15px 35px;
+}
+
+.Main--Consultas
+{
+    height: 105%;
+    background-image: none;
+    color: black;
+}
+
+.titulos_h1
+{
+    text-align: center;
+    font-weight: bolder;
+    color: var(--main-title-color);
+}
+
+.Footer
+{
+    height: 68%;
+    background-color: var(--sec-bg-color);
+}
+
+.REDES img
+{
+  padding-top: 30px;
+  margin-right: 25px;
+}
+
+.PAGOS
+{
+  text-align: right;
+}
+
+.TITULO_FOOTER1
+{
+  margin-top: 20px;
+  text-decoration-line: underline;
+  text-align: left;
+  color: var(--main-title-color)
+}
+
+.TITULO_FOOTER2
+{
+  text-decoration-line: underline;
+  text-align: left;
+  color: var(--main-title-color)
+}
+
+.TEXTO_FOOTER1
+{
+  font-size: 20px;
+  text-align: left;
+}
+
+.TEXTO_FOOTER2
+{
+  font-size: 20px;
+  text-align: left;
+}
+
+.Main_Catalogo
+{
+    background-color: var(--main-bg-color);
+    border-bottom: var(--main-border) ;
+    border-top: var(--main-border);
+    padding-top: 60px;
+    height: 100%;
+}
+
+.carousel 
+{
+    width:670px;
+    height:340px;
+
+}
+
+
+
+@media only screen and (max-width: 668px)
+{
+
+    .Main
+    {
+        height: 100%;
+    }
+
+
+    .Main--Consultas
+    {
+        height: 100%;
+        display: block;
+        padding-top: 330px;
+    }
+
+
+    .Footer
+    {
+        height: 100%;
+        padding-top: 200px;
+        border-top: none;
+    }
+
+    .Main_Catalogo
+    {
+        height: 100%;
+        width: 106%;
+    }
+
+}
